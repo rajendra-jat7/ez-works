@@ -1,0 +1,43 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .service {
+    background: #002244;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-family: 'Opem Sans', sans-serif;
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1440px) {
+    .services {
+      justify-content: space-around;
+    }
+    .service {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .service {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service {
+      width: 100%;
+    }
+  }
+  
